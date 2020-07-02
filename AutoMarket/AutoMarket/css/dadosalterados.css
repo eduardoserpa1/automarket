@@ -1,0 +1,41 @@
+#foto{
+	float: right;
+	width: 50px;
+	height: 50px;
+	border:solid 1px #dddddd;
+	border-radius: 2em;
+}
+@keyframes rodar {
+     from { 
+     	margin-left: 800px;
+     	width: 1px;
+		height: 1px; 
+     	opacity: 0;
+     }     
+     to { 
+     	margin-right: 0px;
+     	width: 130px;
+		height: 130px;
+     	opacity: 1; 
+     } 
+ } 
+
+#load{
+	margin-left: 45%;
+	width: 130px;
+	height: 130px;
+	animation-name: rodar;
+	animation-duration: 0.2s;
+	animation-timing-function: ease-in;
+}
+h1{
+	font-family: Roboto Thin;
+	margin-left: 34%;
+}
+#desc{
+	font-size: 12px;
+	margin-top: 2%; 
+	margin-left: 40%;
+	position: absolute;
+	font-family: Roboto;
+}

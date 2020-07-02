@@ -1,0 +1,187 @@
+.fotoprod{
+	width: 20px;
+	height: 20px;
+}
+#foto{
+	float: right;
+	width: 50px;
+	height: 50px;
+	border:solid 1px #dddddd;
+	border-radius: 2em;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	color: black;
+}
+h1{
+	font-family: Roboto Thin;
+	margin-left: 30px;
+}
+h2{
+	font-family: Roboto Thin;
+	float: right;
+}
+table{
+	font-family: Roboto Thin;
+	font-size: 18px;
+}
+th{
+	text-align: left;
+}
+button{
+	font-family: Roboto;
+	font-size: 12px;
+	border-radius: 3px;
+	border: solid 2px #48a7f9 ;
+	background-color: #48a7f9;
+	cursor: pointer;
+}
+input{
+	font-family: Roboto;
+	font-size: 22px;
+	border-radius: 3px;
+	border: solid 2px #48a7f9 ;
+	background-color: #48a7f9;
+	cursor: pointer;
+}
+input[name="botaoeditar"]{
+	font-family: Roboto;
+	font-size: 12px;
+	border-radius: 3px;
+	border: solid 2px #48a7f9 ;
+	background-color: #48a7f9;
+	cursor: pointer;
+}
+input[type="text"],input[type="email"],input[type="password"],input[type="tel"]{
+	text-decoration: none;
+	width: 300px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 9px;
+	border-radius: 4px;
+	border: solid 1px #e8e8e8;
+	font-family: Roboto Thin;	
+	font-size: 22px;
+}
+input[placeholder]{
+	padding-left: 5px;
+}
+label{
+	font-size: 22px	;
+	margin-left: -20px;
+}
+
+.submits:hover{
+	cursor: pointer;
+}
+#l1:hover, #l2:hover, #l3:hover, #l4:hover{
+	background-color: #f2f2f2;
+	border-bottom: solid 3.5px #48a7f9;
+}
+
+#botaoeditar{
+	margin-left: 422px;
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+	padding-left: 0%;
+	padding-right: 0%;
+
+}
+#botaosairid{
+	font-family: Roboto;
+	font-size: 14px;
+	border-radius: 3px;
+	border: solid 2px #48a7f9 ;
+	background-color: #48a7f9;
+	cursor: pointer;
+	margin-left: 76%;
+	width: 100px;
+	height:30px;
+
+}
+#botaomudarsenha{
+	font-family: Roboto;
+	font-size: 12px;
+	border-radius: 3px;
+	border: solid 2px #48a7f9 ;
+	background-color: #48a7f9;
+	cursor: pointer;
+	margin-bottom: -16px;
+}
+.divnav{
+	background-color: #f2f2f2;
+	position: relative;
+	left: 19.9%;
+	top: -8px;
+	right: 0%;
+	width: 1020px;
+	height: 53px;
+	border-bottom: solid 3px #dddddd;
+	
+}
+.titulo{
+	position: absolute;
+	background-color: #f2f2f2;
+	top:0%;
+	left: 0%;
+	border-bottom: solid 3px #dddddd;
+}
+
+.navlinks{
+	font-family: Roboto;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	margin-right: -2px;
+	margin-left: -2px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 100%;
+	padding-bottom: 13px;
+}
+.maindiv{
+	margin-top: 3%;
+	margin-left: 15%;
+	margin-right: 15%;		
+	border-right: solid 1px #eeeeee;
+	border-left: solid 1px #eeeeee;
+}
+.th1{
+	width: 50px;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	border-bottom: solid 1px #eeeeee;
+	
+}
+.th2{
+	padding-right: 550px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left: 20px;
+	border-bottom: solid 1px #eeeeee;
+	
+}
+.th3{
+	padding-right: ;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	border-bottom: solid 1px #eeeeee;
+}
+#desc{
+	font-size: 12px;
+	margin-top: 2%; 
+	margin-left: 40%;
+	position: absolute;
+	font-family: Roboto;
+}
+#total{
+	margin-top: -3px;
+	margin-right: 3px;
+}

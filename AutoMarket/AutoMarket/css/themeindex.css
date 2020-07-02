@@ -1,0 +1,104 @@
+#desc{
+	font-size: 12px;
+	margin-top: 2%; 
+	margin-left: 40%;
+	position: absolute;
+	font-family: Roboto;
+}
+#foto{
+	float: right;
+	width: 50px;
+	height: 50px;
+	border:solid 1px #dddddd;
+	border-radius: 2em;
+}
+@keyframes erro{
+	from{
+		margin-left: -300px;
+		opacity: 1;
+	}
+	/*-----*/
+	to{
+		margin-left: 0px;
+		opacity: 0;
+	}	
+}
+p{
+	font-family: Roboto Light;
+	margin-left: 180px;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 30px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	color: black;
+}
+h1{
+	margin-left: 50px;
+	font-size: 64px;
+	font-family: Roboto Thin;
+	font-weight: 100;
+	font-style: italic;
+}
+#erroinc{
+	color: red;
+	animation-name: erro;
+	animation-duration: 1s;
+
+}
+#l1:hover, #l2:hover, #l3:hover, #l4:hover{
+	background-color: #f2f2f2;
+	border-bottom: solid 3.5px #48a7f9;
+}
+
+#divsauda{
+	width: 850px;
+	margin-top: 50px;
+	margin-left: 150px;
+	letter-spacing: 1px;
+
+
+}
+#linkreg{
+	color: #48a7f9;
+	font-style: italic;
+}
+.titulo{
+	/*font-size: 44px;*/
+	position: fixed;
+	background-color: #f2f2f2;
+	top:0%;
+	left: 0%;
+	border-bottom: solid 3px #dddddd;
+}
+.divnav{
+	background-color: #f2f2f2;
+	position: fixed;
+	left: 20%;
+	top: 0px;
+	right: 0px;
+	height: 53px;
+	/*margin-bottom: 100px;
+	margin-top: -59px;
+	margin-left: 400px;
+	margin-right: -7px;*/
+	border-bottom: solid 3px #dddddd;
+	
+}
+.navlinks{
+	font-family: Roboto;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	margin-right: -2px;
+	margin-left: -2px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 100%;
+	padding-bottom: 13px;
+}
